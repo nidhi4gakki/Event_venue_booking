@@ -21,30 +21,6 @@ This project runs locally using ADK Web to serve an interactive browser-based in
 
 
 
----
-
-🗂️ Project Structure
-
-'Event_venue_booking/
-├── campusAI/
-│   ├── Manager/
-│   │   ├── sub_agents/          # Specialized sub-agents for tasks
-│   │   ├── tools/
-│   │   │   ├── __init__.py
-│   │   │   └── tools_def.py     # Helper functions and utilities
-│   │   ├── __init__.py
-│   │   └── agent.py             # Main Manager agent logic
-│   │
-│   ├── __init__.py
-│   ├── agent.py                 # Core Campus AI entry agent
-│   └── req.txt                  # Required dependencies
-│
-├── .env                         # Environment variables (e.g., API keys)
-├── __init__.py
-├── agent.py                     # Root-level AI initialization
-├── README.md                    # Project documentation'
-
-
 ⚙️ Setup & Installation
 
 1️⃣ Clone the Repository
