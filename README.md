@@ -20,6 +20,36 @@ This project runs locally using ADK Web to serve an interactive browser-based in
 📁 Organized architecture for scalability
 
 
+Project Structure:
+```
+CampusAI/parent folder
+├── manager/ root agent          
+│   ├── __init__.py              
+│   ├── agent.py                 
+│   ├── .env                     
+│   └── sub_agents/             
+│       ├── __init__.py          
+│       ├── availibity_checker/    
+│       │   ├── __init__.py      
+│       │   └── agent.py
+|       |── available_locations/
+|       |   ├── __init__.py      
+│       │   └── agent.py
+│       ├── external_info_agent/
+│       │   ├── __init__.py
+│       │   └── agent.py
+│       ├── reservation_manager/
+│       │   ├── __init__.py
+│       │   └── agent.py
+|   └── tools/
+|       ├── __init__.py          
+│       ├── tools_def/    
+│       │   ├── __init__.py      
+│       │   └── agent.py
+|       │...
+|
+```
+
 
 ⚙️ Setup & Installation
 
@@ -109,19 +139,4 @@ req.txt	Python dependencies
 
 
 
----
 
-🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork this repo
-
-
-2. Create a new branch (feature-xyz)
-
-
-3. Commit changes
-
-
-4. Submit a pull request 🚀
