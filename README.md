@@ -24,7 +24,8 @@ This project runs locally using ADK Web to serve an interactive browser-based in
 ---
 
 🗂️ Project Structure
-Event_venue_booking/
+
+'Event_venue_booking/
 ├── campusAI/
 │   ├── Manager/
 │   │   ├── sub_agents/          # Specialized sub-agents for tasks
@@ -41,7 +42,7 @@ Event_venue_booking/
 ├── .env                         # Environment variables (e.g., API keys)
 ├── __init__.py
 ├── agent.py                     # Root-level AI initialization
-├── README.md                    # Project documentation
+├── README.md                    # Project documentation'
 
 
 ⚙️ Setup & Installation
